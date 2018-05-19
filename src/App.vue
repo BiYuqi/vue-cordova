@@ -8,11 +8,6 @@
 import Vue from 'vue'
 export default {
   name: 'App',
-  beforeCreate () {
-    Vue.cordova.on('deviceready', () => {
-      Vue.cordova.StatusBar.backgroundColorByHexString('#333')
-    })
-  },
   created () {
     Vue.cordova.on('deviceready', () => {
       var exitAppTicker = 0

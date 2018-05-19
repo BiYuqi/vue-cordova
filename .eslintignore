@@ -1,0 +1,6 @@
+/build/
+/config/
+/dist/
+/src/cordova/
+/*.js
+/test/unit/coverage/
