@@ -19,21 +19,15 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8080 浏览器浏览，不能使用原生功能
 npm run dev
 
-# build for production with minification
+# build for production with minification 普通的打包流程 该项目会直接打包至www目录，进而供cordova使用
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 打包android应用 确保已经链接手机usb,可直接安装到手机, 可在谷歌浏览器 输入chrome://inspect/#devices 调试log
+npm run android
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+# 也可在platforms/android/app/build/outputs/apk 找到打包的文件
+cordova run android
 ```
