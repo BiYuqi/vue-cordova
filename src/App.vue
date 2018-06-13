@@ -11,7 +11,6 @@ export default {
   created () {
     Vue.cordova.on('deviceready', () => {
       var exitAppTicker = 0
-      console.log('deviceready')
       document.addEventListener('backbutton', function () {
         if (exitAppTicker === 0) {
           exitAppTicker++
@@ -33,6 +32,7 @@ export default {
 <style>
 html, body{
   width: 100%;
+  height: 100%;
 }
 * {
   margin: 0;
@@ -45,6 +45,6 @@ html, body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
 }
 </style>

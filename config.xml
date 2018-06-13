@@ -32,7 +32,7 @@
     <preference name="Fullscreen" value="false" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <allow-navigation href="http://*/*" />
-    <preference name="StatusBarBackgroundColor" value="#333" />
+    <preference name="StatusBarBackgroundColor" value="#551b1d23" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <engine name="android" spec="~7.0.0" />
     <engine name="ios" spec="4.5.4" />

@@ -33,5 +33,5 @@
     <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="Fullscreen" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#333" />
+    <preference name="StatusBarBackgroundColor" value="#551b1d23" />
 </widget>

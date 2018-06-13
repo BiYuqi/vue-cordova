@@ -1,6 +1,9 @@
 # vue-cordova
 
 > A Vue.js && Cordova project
+## update 2018.6.13
+
+* 增加透明状态栏
 
 ## 下载链接
 [VueCordova for android](https://pan.baidu.com/s/1P7lvZ-8Cc3HML4EKzfRldw)
@@ -14,6 +17,8 @@
 ## 参考附录
 [cordova 结合 vue 构建webapp 新手教程](https://vesperis.me/use-cordova-and-vue-build-spa/)
 ## Build Setup
+[透明状态栏](https://github.com/jeneser/ionic-super-bar)
+[Ionic透明状态栏](https://jeneser.github.io/blog/2017/03/11/ionic-statusbar-transparent/)
 
 ``` bash
 # install dependencies
